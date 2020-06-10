@@ -35,7 +35,7 @@
 </table>
 </div>
 <div class="lowerclass">
-  <div  class="type-width">
+  <div  class="type-width floatLeft">
     <div class="first-row">
       <div class="full-width">
         <div class="floatLeft">
@@ -104,36 +104,37 @@
       <div class="custom-control custom-switch">
         <input type="checkbox" class="custom-control-input" id="switch3">
         <label class="custom-control-label" for="switch3">REQUIRES MULTIPLE VISIT</label>
-      </div><br>
-      <table class="table table-dark table-hover">
-        <thead>
-        <tr>
-          <th>ORDER</th>
-          <th>DESCRIPTION</th>
-          <th>UNITS</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-          <td><input  matInput  ></td>
-          <td><input  matInput  ></td>
-          <td><input  matInput  ></td>
-        </tr>
-        <tr>
-          <td><input  matInput  ></td>
-          <td><input  matInput  ></td>
-          <td><input  matInput  ></td>
-        </tr>
-        <tr>
-          <td><input  matInput  ></td>
-          <td><input  matInput  ></td>
-          <td><input  matInput  ></td>
-        </tr>
-        </tbody>
-      </table>
+      </div>
+      <div class="table-width floatLeft">
+        <table class="table table-dark table-hover">
+          <thead>
+          <tr>
+            <th>ORDER</th>
+            <th>DESCRIPTION</th>
+            <th>UNITS</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td><input  matInput  ></td>
+            <td><input  matInput  ></td>
+            <td><input  matInput  ></td>
+          </tr>
+          <tr>
+            <td><input  matInput  ></td>
+            <td><input  matInput  ></td>
+            <td><input  matInput  ></td>
+          </tr>
+          <tr>
+            <td><input  matInput  ></td>
+            <td><input  matInput  ></td>
+            <td><input  matInput  ></td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
 
-
-  <div class="container">
+  <div class="container perfo-para floatLeft">
       <table class="table table-dark table-hover">
         <!--<thead>-->
         <tr>
@@ -171,29 +172,33 @@
 
 
   </div>
-      <div class="custom-control custom-switch">
+      <div class="custom-control custom-switch margin-left-60">
         <input type="checkbox" class="custom-control-input" id="switch4">
         <label class="custom-control-label" for="switch4">GENERATE LAB CASE</label>
       </div>
-      <div class="custom-control custom-switch">
+      <div class="custom-control custom-switch margin-left-60">
         <input type="checkbox" class="custom-control-input" id="switch5">
         <label class="custom-control-label" for="switch5">REQUIRES POST -OP FOLLOW UP</label>
       </div>
-      <mat-form-field class="after">
-        <input  matInput placeholder="AFTER" >
-      </mat-form-field>
-      <p>POST-OP DOCUMENT</p>
-      <div class="custom-file mb-3">
+      <div class="floatLeft name_margin width-37">
+        <mat-form-field class="after">
+          <input  matInput placeholder="AFTER" >
+        </mat-form-field>
+      </div>
+      <div class="margin-left-60">
+        <p>POST-OP DOCUMENT</p>
+      </div>
+      <div class="custom-file mb-3 width-20 margin-left-3">
         <input type="file" class="custom-file-input" id="customFile" name="filename">
         <label class="custom-file-label" for="customFile">Choose file</label>
       </div>
-      <div class="custom-control custom-switch">
+      <div class="custom-control custom-switch margin-left-60">
         <input type="checkbox" class="custom-control-input" id="switch6">
         <label class="custom-control-label" for="switch6">UPDATE RECARE AT CHECKOUT</label>
       </div>
     </div>
-
-    <div class="container">
+  </div>
+    <div class="cost-tab floatRight">
     <table class="table table-dark table-hover">
       <thead>
       <tr>
@@ -218,20 +223,15 @@
     </table>
   </div>
 
-    <div class="button-row">
+    <div class="button-row margin-top-13 floatLeft">
       <button type="submit" mat-raised-button class="wheat border-radius">
         SAVE
       </button>
     </div>
-    <div class="button-row">
+    <div class="button-row floatLeft margin-top-13 margin-left-2">
       <button type="reset" mat-raised-button class="wheat border-radius">
         ADD NEW
       </button>
     </div>
 
-
-
-
-
-</div>
 </div>
